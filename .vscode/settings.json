@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "SLED.C": "cpp"
+    },
+    "files.exclude": {
+        "": true
+    },
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    }
+}

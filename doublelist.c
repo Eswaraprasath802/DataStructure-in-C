@@ -21,9 +21,9 @@ void main(){
             temp=head;
         }
         else{
-            temp->prev=prevnode;
+      
             temp->next=newnode;
-            prevnode=temp;
+           
             temp=newnode;
         }
         count++;

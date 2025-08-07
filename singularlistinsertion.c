@@ -27,16 +27,13 @@ void main(){
      value=0;
      newnode=(struct Node*)malloc(sizeof(struct Node));
      printf("Enter the data:");
-     scanf("%d",&value); temp=head;
-    while(temp->next!=head){
-        printf("%d\n",temp->data);
-        temp=temp->next;
-    }
-      printf("%d\n",temp->data);
+     scanf("%d",&value); 
+     temp=head;
      newnode->data=value;
-     newnode->next=NULL;
      newnode->next=head;
      head=newnode;
+    
+      
      
      //insertion at end
      printf("Isertion at end\n");
